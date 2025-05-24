@@ -1,21 +1,11 @@
-
-
 import { Search, Bell, User, Plus } from 'lucide-react';
 
-
-
 const Header = () => {
-
-    return (
-
-<header className="bg-white shadow-sm p-4 flex justify-between items-center">
-
+  return (
+    <header className="bg-white shadow-sm p-4 flex justify-between items-center">
       <div className="text-xl font-bold text-blue-600">Healthcare.</div>
-
       <div className="flex items-center space-x-4">
-
         <div className="relative">
-
           <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
           <input
             type="text"
@@ -27,7 +17,7 @@ const Header = () => {
         <Bell className="h-6 w-6 text-gray-600" />
         <div className="flex items-center space-x-2">
           <img
-            src="/src/assets/avatar.png"
+            src="/assets/avatar.png" // Updated path
             alt="User Avatar"
             className="h-8 w-8 rounded-full"
           />

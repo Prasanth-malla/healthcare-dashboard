@@ -6,7 +6,7 @@ const AnatomySection = () => {
       <h2 className="text-lg font-semibold text-gray-800 mb-4">Anatomy Overview</h2>
       <div className="relative flex justify-center">
         <img
-          src="/src/assets/anatomy.svg"
+          src="/assets/anatomy.svg" // Updated path
           alt="Anatomical Illustration"
           className="h-64 w-auto"
         />
