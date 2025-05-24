@@ -1,3 +1,4 @@
+import anatomySvg from '../assets/anatomy.svg'; // Dynamic import
 import { healthData } from '../data/healthData';
 
 const AnatomySection = () => {
@@ -6,7 +7,7 @@ const AnatomySection = () => {
       <h2 className="text-lg font-semibold text-gray-800 mb-4">Anatomy Overview</h2>
       <div className="relative flex justify-center">
         <img
-          src="/assets/anatomy.svg" // Updated path
+          src={anatomySvg}
           alt="Anatomical Illustration"
           className="h-64 w-auto"
         />

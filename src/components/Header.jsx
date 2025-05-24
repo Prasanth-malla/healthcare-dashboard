@@ -1,3 +1,4 @@
+import avatarPng from '../assets/avatar.png'; // Dynamic import
 import { Search, Bell, User, Plus } from 'lucide-react';
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
         <Bell className="h-6 w-6 text-gray-600" />
         <div className="flex items-center space-x-2">
           <img
-            src="/assets/avatar.png" // Updated path
+            src={avatarPng}
             alt="User Avatar"
             className="h-8 w-8 rounded-full"
           />
